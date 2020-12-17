@@ -346,6 +346,9 @@ margin-right: 51px;
     .page-header{
         height: 120vh;
     }
+    .page-header {
+        background-position: 63% center;
+    }
 }
 
 @media (max-width: 1200px){
@@ -358,6 +361,9 @@ margin-right: 51px;
     }
     .heroes__slider-img{
         max-width: 100%;
+    }
+    .page-header {
+        background-position: 54% center;
     }
 }
 
@@ -523,13 +529,19 @@ margin-right: 51px;
     bottom: 0;
     left: 0;
 }
-
-
-
 .page-header{
     height: 160vh;
 }
+.page-header {
+    background-position: 54% center;
+}
 
+}
+
+@media (max-width: 468px){
+    .page-header {
+        background-position: 55% -62px;
+    }
 }
 
 @media (max-width: 468px){
@@ -545,18 +557,22 @@ margin-right: 51px;
     .seasons__item{
         height: 203px;
     }
+    .page-logo {
+    margin-left: 15%;
 }
+}
+
 @media (max-width: 450px){
-    .seasons__item {
+    div .seasons__item {
         width: 300px;
     }
 }
-
-@media (max-width: 374px){
-    .page-header{
-        height: 200vh;
+@media (max-width: 420px){
+    .season-info {
+        position: relative;
+        margin-top: 180px;
+        display: block;
     }
-    
 }
 
 

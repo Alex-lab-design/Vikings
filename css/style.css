@@ -570,7 +570,7 @@ margin-right: 51px;
 @media (max-width: 420px){
     .season-info {
         position: relative;
-        margin-top: 180px;
+        margin-top: 125px;
         display: block;
     }
 }
